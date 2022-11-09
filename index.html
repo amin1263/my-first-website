@@ -1,82 +1,142 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-          Home
-        </title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-      
-    <!-- img tag, <a tag-->
-        <style type="text/css">
 
-    
-</style>
+<head>
+    <title>
+        Home
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- img tag, <a tag-->
+    <style type="text/css">
+
+
+    </style>
 </head>
-    <body id="container">
-        <div class="div-1">
+
+<body id="container">
+    <div class="div-1">
         <nav class="topnav py-4">
-            <ul >
+            <ul>
                 <li><a href="#index">Home</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#links">Classmates</a></li>
-                
+
             </ul>
         </nav>
 
-        <img id="cat-image" width="300px" src="/pictures/cat.png" />
-        
+        <!-- <img id="cat-image" width="300px" src="/pictures/cat.png" /> -->
+
         <div id="index" class="section">
-            <img id="my-image" src="/pictures/me.jpg" />
-            <div class="flex col-10">
-                <h1 class="mt-4">Hello, my name is Mohamud Amin</h1>
+            <div class=" col-10">
                 <div id="about-me">
+                    <h1 class="py-3">Hello, my name is<br> <span class="display-3">Mohamud Amin!</span></h1>
                     <p id="about-me-paragraph">
                         This is my first Website that i was able to create with the <br>
                         help of <a href="https://refcode.org/pages/index.html">Refcode</a> community.
-                        This is my developer story.      
+                        This is my developer story.
                         I never had access to or knowledge of computers as a child.
-                        I was only permitted to use the computer in high school for 
+                        I was only permitted to use the computer in high school for
                         homework purposes,and only do so once a day for a nominal charge.
                         I learned how to use and type using WordPerfect on my own.
-                        In high school, I also learned how to use keyboard shortcuts 
+                        In high school, I also learned how to use keyboard shortcuts
                         like Alt-F4 to exit and F7 to print WordPerfect.
-                        When I moved to the United States, I had more freedom to use computers, 
+                        When I moved to the United States, I had more freedom to use computers,
                         navigate the internet, and learn anything from YouTube.
                         I joined this wonderful Refcode community to learn more about Software Web Development.
                     </p>
+                    <div id="resume" class="section">
+                        <p class=" ">This is my resume page
+                            <a href="" class="display5" download="">download my Resume</a>
+                        </p>
+                    </div>
                 </div>
+            </div>
+            <div class="col-2">
+                <img id="my-image" src="/pictures/me.jpg" />
             </div>
 
         </div>
 
-        <div id="resume" class="section">
-            <p class=" mt-5 py-5 px-5">This is my resume page
-              <a href="" download="">downloadresume</a>
-            </p>
+
+
+        <!-- <div id="links" class="section"> -->
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="text-center">Classmates</h1>
+                    <div class="row py-4 px-5">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="http://damianbaker.org/" class="btn text-danger">Damian Baker</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card bg-red">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="https://ayahhamdoun.github.io/My-Developer-story/" class="btn text-danger">
+                                        Aya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-lg-4 px-5">
+                        <div class="col-sm-6 ">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="https://elizabethbekele.com/mystory.html" class="btn text-danger">Elizabeth
+                                        Bekele </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="https://samridebebe.com/mystory.html" class="btn text-danger">Samri Debebe
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <ul class="">
+                        <li><a href="https://ayahhamdoun.github.io/My-Developer-story/">Aya</a></li>
+                        <li><a href="http://damianbaker.org/">damianbaker</a></li>
+                        <li><a href="https://elizabethbekele.com/mystory.html">elizabethbekele</a></li>
+                        <li><a href="https://www.luvazquez.com/">luvazquez</a></li>
+                        <li><a href="https://samridebebe.com/mystory.html">samridebebe</a></li>
+                    </ul> -->
+            </div>
         </div>
+    </div>
+    </div>
 
-        <div id="links" class="section">
-            <h1>Classmates</h1>
-            <ul>
-                <li><a href="https://ayahhamdoun.github.io/My-Developer-story/">Aya</a></li>
-                <li><a href="http://damianbaker.org/">damianbaker</a></li>
-                <li><a href="https://elizabethbekele.com/mystory.html">elizabethbekele</a></li>
-                <li><a href="https://www.luvazquez.com/">luvazquez</a></li>
-                <li><a href="https://samridebebe.com/mystory.html">samridebebe</a></li>
-            </ul>
 
-        </div>
+    <footer class="footer text-center display-4 " id="footer">My first Website created by <span
+            class="name">Mohamud</span></footer>
+</body>
 
-        
-
-        <footer id="footer">My first Website created by Mohamud</footer>
-    </body>
 </html>
 
 
 <script>
-    window.onload = function() {    
+    window.onload = function () {
         var container = document.getElementById('container');
         var windowHeight = window.innerHeight;
         var windowWidth = window.innerWidth;
@@ -86,11 +146,11 @@
     }
 
     // update position of square 1 and square 2 when scroll event fires.
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         var scrollTop = window.pageYOffset || window.scrollTop;
-        var scrollPercent = scrollTop/scrollArea || 0;
+        var scrollPercent = scrollTop / scrollArea || 0;
 
-        var newLeft = scrollPercent*window.innerWidth + 'px';
+        var newLeft = scrollPercent * window.innerWidth + 'px';
         console.log(newLeft);
         cat.style.left = newLeft;
     });
