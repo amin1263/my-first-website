@@ -13,68 +13,158 @@
     
 </style>
 </head>
-    <body id="container">
-        <div class="div-1">
-        <nav class="topnav py-4">
-            <ul >
-                <li><a href="#index">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#links">Classmates</a></li>
-                
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instagram</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Learn more
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-        </nav>
+          </li>
 
-        <img id="cat-image" width="300px" src="/pictures/cat.png" />
-        
-        <div id="index" class="section">
-            <img id="my-image" src="/pictures/me.jpg" />
-            <div class="flex flex-col">
-                <h1 class="mt-4">Hello, my name is Mohamud Amin</h1>
-                <div id="about-me">
-                    <p id="about-me-paragraph">
-                        This is my first Website that i was able to create with the <br>
-                        help of <a href="https://refcode.org/pages/index.html">Refcode</a> community.
-                        This is my developer story.      
-                        I never had access to or knowledge of computers as a child.
-                        I was only permitted to use the computer in high school for 
-                        homework purposes,and only do so once a day for a nominal charge.
-                        I learned how to use and type using WordPerfect on my own.
-                        In high school, I also learned how to use keyboard shortcuts 
-                        like Alt-F4 to exit and F7 to print WordPerfect.
-                        When I moved to the United States, I had more freedom to use computers, 
-                        navigate the internet, and learn anything from YouTube.
-                        I joined this wonderful Refcode community to learn more about Software Web Development.
-                    </p>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<div id="index" class="section">
+    <div class=" col-8">
+        <div id="about-me">
+            <h1 class="py-3">Hello, my name is<br> <span class="display-3">Mohamud Amin!</span></h1>
+            <p id="about-me-paragraph">
+                This is my first Website that i was able to create with the <br>
+                help of <a href="https://refcode.org/pages/index.html">Refcode</a> community.
+                This is my developer story.
+                I never had access to or knowledge of computers as a child.
+                I was only permitted to use the computer in high school for
+                homework purposes,and only do so once a day for a nominal charge.
+                I learned how to use and type using WordPerfect on my own.
+                In high school, I also learned how to use keyboard shortcuts
+                like Alt-F4 to exit and F7 to print WordPerfect.
+                When I moved to the United States, I had more freedom to use computers,
+                navigate the internet, and learn anything from YouTube.
+                I joined this wonderful Refcode community to learn more about Software Web Development.
+            </p>
+            <div id="resume" class="section">
+                <p class=" ">This is my resume page
+                    <a href="" class="display5" download="">download my Resume</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-4 py-5">
+        <img id="my-image" src="/pictures/me.jpg" />
+    </div>
+</div>
+<!-- <div id=“links” class=“section”> -->
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h1 class="text-center">Classmates</h1>
+            <div class="row py-4 px-5">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="http://damianbaker.org/" class="btn text-danger">Damian Baker</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card bg-red">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="https://ayahhamdoun.github.io/My-Developer-story/" class="btn text-danger">
+                                Aya</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <div class="row py-lg-4 px-5">
+                <div class="col-sm-6 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="https://elizabethbekele.com/mystory.html" class="btn text-danger">Elizabeth
+                                Bekele </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="https://samridebebe.com/mystory.html" class="btn text-danger">Samri Debebe
+                            
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- <ul class=“”>
+                <li><a href=“https://ayahhamdoun.github.io/My-Developer-story/”>Aya</a></li>
+                <li><a href=“http://damianbaker.org/”>damianbaker</a></li>
+                <li><a href=“https://elizabethbekele.com/mystory.html”>elizabethbekele</a></li>
+                <li><a href=“https://www.luvazquez.com/”>luvazquez</a></li>
+                <li><a href=“https://samridebebe.com/mystory.html”>samridebebe</a></li>
+            </ul> -->
+    </div>
+</div>
+</div>
+</div>
 
-        <div id="resume" class="section">
-            <p class=" mt-5 py-5 px-5">This is my resume page
-              <a href="" download="">downloadresume</a>
-            </p>
-        </div>
 
-        <div id="links" class="section">
-            <h1>Classmates</h1>
-            <ul>
-                <li><a href="https://ayahhamdoun.github.io/My-Developer-story/">Aya</a></li>
-                <li><a href="http://damianbaker.org/">damianbaker</a></li>
-                <li><a href="https://elizabethbekele.com/mystory.html">elizabethbekele</a></li>
-                <li><a href="https://www.luvazquez.com/">luvazquez</a></li>
-                <li><a href="https://samridebebe.com/mystory.html">samridebebe</a></li>
-            </ul>
 
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         
 
-        <footer id="footer">My first Website created by Mohamud</footer>
+        <footer class="footer text-center" id="footer">My first Website created by<span class="display-5"> Mohamud</span> </footer>
     </body>
 </html>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script>
     window.onload = function() {    
         var container = document.getElementById('container');
@@ -94,4 +184,5 @@
         console.log(newLeft);
         cat.style.left = newLeft;
     });
+
 </script>
