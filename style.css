@@ -199,3 +199,16 @@ p a {
     height: 60%;
     border-radius: 2rem;
   }
+
+/* Quick demo for showing @media screen differences -Vincent */
+@media (max-width: 800px) {
+  #classmates {
+    /* Using padding instead of margin just for demo */
+    padding-top: 3000px;
+  }
+}
+.classmate-image{
+  width: 100%;
+  height: 60%;
+  border-radius: 2rem;
+}
