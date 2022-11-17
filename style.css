@@ -30,9 +30,11 @@ body {
 
 
 .section {
-  display: flex;
+  display:flex;
   background-color: transparent;
   height: 750px;
+  margin-bottom: 100px;
+  justify-content: center;
 }
 
 
@@ -212,3 +214,29 @@ p a {
   height: 60%;
   border-radius: 2rem;
 }
+button{
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: fit-content;
+
+}
+.nav-item{
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  color: white;
+  width: 100%;
+  display: block;
+}
+.nav-item a{
+  color: black;
+}
+.navbar.navbar-expand-lg{
+  width: 100%;
+  background-color: white;
+} 
