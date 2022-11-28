@@ -59,12 +59,15 @@ html {
 }
 
 .topnav {
+  display: flex;
   overflow: hidden;
   float: inline-end;
+  flex-direction: row;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  
   float: right;
   color: #f2f2f2;
   text-align: center;
@@ -240,3 +243,6 @@ button{
   width: 100%;
   background-color: white;
 } 
+.link{
+  text-decoration: none!important;
+}
